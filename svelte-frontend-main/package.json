@@ -1,0 +1,30 @@
+{
+	"name": "proof-anchor-svelte",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "vite dev --port 3000"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"@tailwindcss/typography": "^0.5.10",
+		"autoprefixer": "^10.4.16",
+		"daisyui": "^4.4.2",
+		"postcss": "^8.4.31",
+		"svelte": "^4.0.5",
+		"tailwindcss": "^3.3.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"crypto": "^1.0.1",
+		"crypto-browserify": "^3.12.0",
+		"eventemitter3": "^5.0.1",
+		"formidable": "^3.5.1",
+		"web3": "^4.2.2"
+	}
+}

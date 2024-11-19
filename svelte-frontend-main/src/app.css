@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mg-btn-primary {
+    @apply btn btn-primary bg-green-500;
+}
+
+
